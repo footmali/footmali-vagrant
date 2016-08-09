@@ -1,0 +1,9 @@
+{
+    "name": "footmali/footmali-vagrant",
+    "description": "Footmali Vagrant box for project development",
+    "type": "project",
+    "require": {},
+    "require-dev": {
+        "laravel/homestead": "^3.0"
+    }
+}
