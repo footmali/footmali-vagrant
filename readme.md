@@ -1,18 +1,18 @@
 # Footmali Vagrant
 
-## Development
-- Update /etc/hosts file on your machine with these entry
+## Setup
+1. Update /etc/hosts file on your machine with these entries:
 
-``` 192.168.19.88 footmali.local
+``` 192.168.19.88 footmali.local ```
 
-192.168.19.88 cms.footmali.local
+``` 192.168.19.88 cms.footmali.local ```
 
-192.168.19.88 dmt.footmali.local
+``` 192.168.19.88 dmt.footmali.local ```
 
-192.168.19.88 api.footmali.local ```
+``` 192.168.19.88 api.footmali.local ```
 
+2. Start the vagrant machine  ` vagrant up `
 
-- Start the vagrant machine  ` vagrant up `
-
-When you update this project you'll need to provision the vagrant box
+## FYI
+Whenever the file Homestead.yaml is updated you'll need to provision the vagrant box
 ``` vagrant reload --provision ```
