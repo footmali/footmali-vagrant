@@ -17,7 +17,7 @@ folders:
 
 sites:
     - map: cms.footmali.local
-      to: "/home/vagrant/footmali-vagrant/public"
+      to: "/home/vagrant/footmali-vagrant/projects/footmali-cms/public"
 
 databases:
     - footmali-cms

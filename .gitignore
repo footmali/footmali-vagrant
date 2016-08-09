@@ -1,5 +1,6 @@
 vendor
 composer.lock
+projects/**
 
 ### OSX ###
 .DS_Store
