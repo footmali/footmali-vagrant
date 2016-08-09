@@ -1,1 +1,0 @@
-{"virtualbox":{"/home/vagrant/footmali-vagrant":{"type":null,"mount_options":[],"guestpath":"/home/vagrant/footmali-vagrant","hostpath":"/Users/souley/Documents/Projects/footmali-vagrant","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/souley/Documents/Projects/footmali-vagrant","disabled":false,"__vagrantfile":true}}}
