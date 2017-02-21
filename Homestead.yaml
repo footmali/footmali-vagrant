@@ -12,15 +12,19 @@ keys:
     - ~/.ssh/id_rsa
 
 folders:
-    - map: "/Users/souley/Documents/Projects/footmali-vagrant"
+    - map: "./"
       to: "/home/vagrant/footmali-vagrant"
 
 sites:
     - map: cms.footmali.local
       to: "/home/vagrant/footmali-vagrant/projects/footmali-cms/public"
 
+    - map: drupal.footmali.local
+      to: "/home/vagrant/footmali-vagrant/projects/footmali-drupal/public"
+
 databases:
     - footmali-cms
+    - footmali_drupal
 
 # blackfire:
 #     - id: foo
